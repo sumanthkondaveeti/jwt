@@ -43,3 +43,6 @@ The Java Library used in pom.xml is:
     		<artifactId>java-jwt</artifactId>
     		<version>3.4.1</version>
 		</dependency>
+		
+		
+In JwtTokens.java run the main methods which creates the token using HMAC256 and later verifies the Token and we third is getting claims we set while generating the tokens.
